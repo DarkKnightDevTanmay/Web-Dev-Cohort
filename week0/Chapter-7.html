@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="submit_form.php" method="POST" style="background-color:yellow; margin: 0 auto; width: 300px; padding: 20px; border: 1px solid #ccc;" >
+        <!-- Phone number field -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+        <br>
+
+        <label for="text">Comments</label>
+        <textarea id="text" name="comments" rows="4" cols="40"></textarea>
+        <button type="submit">Submit</button>
+
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern=".{8,}" title="Password must be at least 8 characters" required>
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
