@@ -1,0 +1,19 @@
+p{
+    color: red;
+}
+
+#article1{
+    background-color: green;
+}
+
+.paraclass{
+    background-color: yellow;
+}
+
+p,article{
+    width: 500px;
+}
+
+p.paraclass{
+    text-align: center;
+}

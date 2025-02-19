@@ -1,0 +1,22 @@
+
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.my-class-a{
+    color: red;
+    text-decoration: underline;
+}
+
+.my-class-b{
+    font-size: 30px;
+}
+
+#bttn{
+    color: pink;
+}
